@@ -1,10 +1,11 @@
- {
+{
   "name": "Proyecto-Fatz-Login",
   "version": "1.0.0",
   "description": "Ejecucion de Creacion de Usuario y Login",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "method-override": "^3.0.0",
     "mongoose": "^6.2.5",
     "passport": "^0.5.2",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
   }
 }
